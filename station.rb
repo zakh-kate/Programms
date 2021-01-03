@@ -1,4 +1,4 @@
-class Station
+class station
   list = {}
   list_of_train = []
   loop do
@@ -41,5 +41,4 @@ class Station
   end
 end
 
-load.'/station.rb'
 station = Station.new (station1, train322 , passenger)
