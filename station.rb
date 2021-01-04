@@ -1,12 +1,10 @@
-class station
+class Station
   list = {}
-  list_of_train = []
-  loop do
   attr_reader :station
   attr_accessor :train
   attr_accessor :movement
-  def initialize (station , train , type_train)
-   @train = train
+  def initialize(station_name,list_of_train,type_train)
+   @list_of_train = list_of_train
    @type_train = type_train
    @movement = movement
   end
@@ -41,4 +39,4 @@ class station
   end
 end
 
-station = Station.new (station1, train322 , passenger)
+S = Station.new ('Станция', train322 , passenger)
